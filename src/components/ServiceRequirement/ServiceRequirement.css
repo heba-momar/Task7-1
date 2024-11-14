@@ -1,0 +1,19 @@
+.HM-service-card {
+    width: 275px;
+  }
+  
+  .HM-service-card span {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.466);
+  }
+  
+  .HM-service-card h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .HM-service-card p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.466);
+  }

@@ -1,0 +1,13 @@
+.Hmicon{
+        margin-top: 30px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .Hmicon img {
+        width: 150px; 
+         padding-right: 20px;
+    }
