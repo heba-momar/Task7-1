@@ -61,9 +61,9 @@ export default function Footer({ m }) {
 
       <section>
         <div className="middle-footer-container">
-          {/* Logo and Description Section */}
+
           <div className="footer-brand">
-            <img src="/image/logo 2.svg" alt="Company logo" />
+            <img src="../../../public/image/logo2.svg" alt="logo" />
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
               quaerat laudantium dicta. Aperiam repudiandae, dolore obcaecati
@@ -85,8 +85,6 @@ export default function Footer({ m }) {
               </a>
             </div>
           </div>
-
-          {/* Quick Links Section */}
           <div className="footer-quick-links">
             <h3>Quick Links</h3>
             <div className="footer-divider"></div>
@@ -113,7 +111,7 @@ export default function Footer({ m }) {
             </ul>
           </div>
 
-          {/* Recent Posts Section */}
+ 
           <div className="footer-recent-posts">
             <h3>Recent Posts</h3>
             <div className="footer-divider"></div>
@@ -139,7 +137,7 @@ export default function Footer({ m }) {
             </div>
           </div>
 
-          {/* Contact Section */}
+
           <div className="footer-contact">
             <h3>Contact Us</h3>
             <div className="footer-divider"></div>
@@ -154,7 +152,7 @@ export default function Footer({ m }) {
               <a href="tel:+9647716091119">+964 (771) 609 1119</a>
             </div>
 
-            {/* Email Subscription Form */}
+
             <div className="email-subscription">
               <input
                 type="email"
@@ -164,7 +162,7 @@ export default function Footer({ m }) {
               <button className="email-submit">➔</button>
             </div>
 
-            {/* Privacy Policy Agreement */}
+
             <div className="privacy-policy">
               <input type="checkbox" id="agree" className="checkbox-input" />
               <label htmlFor="agree">
@@ -174,7 +172,6 @@ export default function Footer({ m }) {
           </div>
         </div>
 
-        {/* Copyright and Legal Section */}
         <div className="footer-legal">
           <div className="footer-legal-content">
             <div>©All Copyright 2024 by Extech</div>
