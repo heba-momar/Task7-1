@@ -48,21 +48,6 @@ export default function TeamAll() {
           />
         ))}
     </div>
-    <div >
-        <div className="Brandtrust">
-        <div className="Brandline"></div>
-        <p>1k+ Brands Trust Us</p>
-        <div className="Brandline"></div>
-        </div>
-        <div className="envato">
-            <img src="/image/envato.svg" alt="envato" />
-            <img src="/image/envato.svg" alt="envato" />
-            <img src="/image/envato.svg" alt="envato" />
-            <img src="/image/envato.svg" alt="envato" />
-            <img src="/image/envato.svg" alt="envato" />
-        </div>
-
-    </div>
     </section>
   );
 }
