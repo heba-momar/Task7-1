@@ -59,11 +59,6 @@ export default function Getln() {
                 </div>
                         
                         </div>
-
-
-
-
-
                 </div>
 
                 <div className="form-group full-width">

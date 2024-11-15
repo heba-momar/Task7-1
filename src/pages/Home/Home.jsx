@@ -21,7 +21,7 @@ export default function Home() {
     <Countactus/>
     <TestMonalise/>
     <BlogAll/>
-    <Footer z={true}/>
+    <Footer m={true}/>
 </>
   );
 }

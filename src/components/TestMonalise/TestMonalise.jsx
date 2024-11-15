@@ -31,7 +31,7 @@ export default function TestMonalise() {
   return (
     <>
       <section className="hm-testandcontact-section">
-        {/* Contact Section */}
+
         <div className="hm-parent">
           <div className="hm-contact-section">
             <div>
@@ -67,7 +67,7 @@ export default function TestMonalise() {
           </div>
         </div>
 
-        {/* Testimonials Section */}
+
         <div className="hm-testimonials-section">
           <div className="hm-testimonials-details">
             <p className="hm-testimonials-title">
@@ -78,8 +78,6 @@ export default function TestMonalise() {
               Our Latest Client Feedback
             </h3>
           </div>
-
-          {/* Testimonials Cards */}
          
           <div className="hm-all-cards">
             { dataTestMonalise.map((data, index) => (
@@ -92,8 +90,6 @@ export default function TestMonalise() {
               />
             ))}
           </div>
-         
-         
         </div>
       </section>
     </>

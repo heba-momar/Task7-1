@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 export default function HeroHome({ h, title, Section }) {
   return (
     <header>
-      {/* Hero of Home Section */}
+
       {h && (
         <section>
           <div className="hm-hero-section">

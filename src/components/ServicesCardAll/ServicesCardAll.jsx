@@ -1,6 +1,5 @@
 
 import ServiesHome from "../ServiesHome/ServiesHome";
-
 import ServiceRequirement from "../ServiceRequirement/ServiceRequirement";
 import "./ServicesCardAll.css";
 import { HiOutlineArrowLongRight, HiOutlineArrowLongLeft } from "react-icons/hi2";

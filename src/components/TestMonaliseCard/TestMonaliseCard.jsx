@@ -8,7 +8,7 @@ export default function TestMonaliseCard({ paragraph, img, name, position }) {
     
        <div >
       <div className="hm-testimonials">
-        {/* Star Ratings */}
+
         <div className="hm-stars">
           <TiStarFullOutline className="hm-FilledStar" />
           <TiStarFullOutline className="hm-FilledStar" />
@@ -18,7 +18,7 @@ export default function TestMonaliseCard({ paragraph, img, name, position }) {
         </div>
         <p>{paragraph}</p>
 
-        {/* Client Info */}
+
         <div className="hmcard-info">
           <div className="hm-picturetitle">
             <img src={img} alt={name} className="MR-testimonials-card-img" />

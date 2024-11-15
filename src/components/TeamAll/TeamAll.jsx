@@ -54,11 +54,11 @@ export default function TeamAll() {
         <div className="Brandline"></div>
         </div>
         <div className="envato">
-            <img src="/image/envato.svg" alt="" />
-            <img src="/image/envato.svg" alt="" />
-            <img src="/image/envato.svg" alt="" />
-            <img src="/image/envato.svg" alt="" />
-            <img src="/image/envato.svg" alt="" />
+            <img src="/image/envato.svg" alt="envato" />
+            <img src="/image/envato.svg" alt="envato" />
+            <img src="/image/envato.svg" alt="envato" />
+            <img src="/image/envato.svg" alt="envato" />
+            <img src="/image/envato.svg" alt="envato" />
         </div>
 
     </div>
