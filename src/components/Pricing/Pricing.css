@@ -1,0 +1,87 @@
+.HMpricing {
+    border: 1.5px solid #d4dcff;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.HMpricing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #384bff;
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 300px;
+}
+
+.HMpricing-header:hover {
+    background-color: #18185e;
+}
+.HMpricing-details h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.HMpricing-details h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.HMpricing-period {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.HMpricing-icon {
+    width: 60px;
+    height: auto;
+}
+
+.HM-featuress ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.HM-features ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.icon-check {
+    color: #384bff;
+    margin-right: 8px;
+}
+
+.icon-cross {
+    color: #f5081b;
+    margin-right: 8px;
+}
+
+.icon-info {
+    color: #999;
+    cursor: pointer;
+}
+
+.HMpricing-button {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    color: #384bff;
+    border: #d9e0ff 1.5px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.HMpricing-button:hover {
+    background-color: #18185e;
+    color: #ffffff;
+}
+

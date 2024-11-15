@@ -1,0 +1,63 @@
+/* Star Ratings Container */
+.hm-stars {
+    display: flex;
+  }
+  
+  /* Rating Stars */
+  .hm-FilledStar {
+    font-size: 20px;
+    color: #fca21a;
+  }
+  
+  .hm-OStar {
+    font-size: 17px;
+    color: #fca21a;
+  }
+  
+  .hm-quotation {
+    width: 15%;
+  }
+  
+  .hmcard-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Testimonials Card Styling */
+  .hm-testimonials {
+    width: fit-content;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hm-testimonials:hover {
+    background-color: #384bff;
+    color: #fff;
+    p,
+    span {
+      color: #fff;
+    }
+  }
+  
+  .hm-testimonials p,
+  .hm-picturetitle span {
+    color: rgba(0, 0, 0, 0.466);
+  }
+  
+  .hmcard-info div h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .hm-picturetitle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .hm-picturetitle span {
+    font-size:12px;
+  }
+  

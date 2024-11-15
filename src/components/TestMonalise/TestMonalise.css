@@ -1,0 +1,150 @@
+
+.hm-testandcontact-section {
+  margin-top: 350px;
+}
+
+.hm-parent {
+  position: relative;
+  width: 100%;
+  margin-top: 300px;
+
+}
+.hm-contact-section {
+  width: 70%;
+  background-color: #384bff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(250, 250, 250);
+  padding: 30px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hm-contact-shape {
+  width: 30%;
+  position: absolute;
+  right: 135px;
+  bottom: 0;
+}
+
+.hm-contact-image {
+  width: 80%;
+}
+
+.hm-contact-details p {
+  width: 70%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.hm-contact-details h3 {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+.hm-all-cards{
+  display: flex;
+  justify-content: center;
+gap: 20px;
+  }
+.hm-contact-section button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.hm-contact-section button:hover {
+  background-color: rgb(161, 174, 243);
+  color: rgb(255, 255, 255);
+}
+
+
+/* Responsive  for Contact Section */
+@media (max-width: 994px) {
+  .hm-contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .hm-contact-details p {
+    width: 100%;
+    font-size: 40px;
+  }
+  .hm-contact-section button {
+    padding: 20px;
+  }
+  .hm-contact-shape {
+    width: 90%;
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+  }
+}
+.hm-testimonials-section {
+  background-color: #f2f6fe;
+  padding: 150px 0;
+}
+
+.hm-testimonials-title {
+  color: #384bff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.hm-testimonials-description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.hm-all-cards {
+  padding: 50px 150px;
+}
+
+/* Responsive for Cards */
+@media (max-width: 992px) {
+  .hm-all-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hm-testimonials-details {
+    padding-top: 170px;
+  }
+  @media (max-width: 700px) {
+    .hm-testimonials-details {
+      padding-top: 225px;
+    }
+    .hm-testandcontact-section {
+      margin-top: 375px;
+    }
+  }
+
+  @media (max-width: 495px) {
+    .hm-testimonials-details {
+      padding-top: 275px;
+    }
+    .hm-testandcontact-section {
+      margin-top: 450px;
+    }
+  }
+}
+
+  

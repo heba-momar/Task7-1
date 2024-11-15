@@ -1,0 +1,37 @@
+
+.HM-Blog {
+    margin-top: 30px;
+    padding:12%;
+}
+
+.HM-Blog h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #333;
+    padding-left: 12%;
+
+}
+
+.HM-Blog-Description {
+    color: #384bff;
+    margin: 20px 0;
+    padding-left: 12%;
+
+}
+
+.HM-blogflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width: 1400px) {
+    .HM-Blog-Description{
+        padding: 15% ;
+    }
+    .HM-blogflex
+    {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}

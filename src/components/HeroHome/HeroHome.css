@@ -1,6 +1,7 @@
+
 /* Main Hero Section Styles */
-.hero-section {
-    height: calc(100vh - 40px);
+.hm-hero-section {
+    height: calc(100vh - 60px);
     width: 90%;
     background-color: #384cff;
     color: #fcfcfc;
@@ -10,44 +11,40 @@
     position: relative;
     overflow: hidden;
     padding: 10% 10% 0% 10%;
-    display: flex;
-
-}
-
-/* Pulse Icon in Header */
-.pulse-icon {
+  }
+  
+  .hm-pulse-icon {
     width: 20px;
-}
-
-/* Hero Header Text */
-.hero-header p {
+  }
+  
+  .hm-hero-header p {
     border: 1px solid white;
     border-radius: 30px;
     width: fit-content;
     padding: 12px;
     font-weight: 700;
-}
-
-/* Hero Title */
-.hero-header h2 {
-    width: 55%;
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 10px;
-}
-
-/* Key Features List */
-.feature-list {
+  }
+  
+  .hm-hero-header h2 {
+    font-size: 45px;
+    width: 70%;
+  }
+  
+  .hm-feature-list {
     display: flex;
     margin-top: 30px;
-}
-.feature-list ul li {
+  }
+  
+  .hm-feature-list ul {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .hm-feature-list ul li {
     list-style: none;
     padding-bottom: 10px;
-}
-
-/* Call-to-Action Button */
-.cta-button {
+  }
+  
+  .hm-cta-button {
     gap: 10px;
     padding: 15px 25px;
     border-radius: 25px;
@@ -58,90 +55,171 @@
     margin-top: 5px;
     font-size: 1rem;
     transition: background-color 0.3s ease;
-}
-.cta-button:hover {
+  }
+  .hm-cta-button:hover {
     background-color: #f8af41;
     transform: scale(1.1);
-}
-
-/* Reviews Section */
-.reviews-container {
-    width: 50%;
+  }
+  
+  .hm-reviews-container {
+    width: 35%;
     background-color: #fcfcfc1c;
+    padding: 20px;
     position: absolute;
     bottom: 0;
     border-radius: 26px 26px 0 0;
     border: 0.5px solid rgba(255, 255, 255, 0.555);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
-    padding: 15px;
-    flex-wrap: wrap;
-}
-.review-title {
-    font-size: 20px;
-}
-
-/* Star Icons */
-.review-icon {
+  }
+  .hm-review-title {
+    font-size: 1rem;
+  }
+  
+  .hm-review-icon {
     color: #00b67a;
-}
-.rating-stars {
+  }
+  .hm-rating-stars {
     color: #f8af41;
-}
+    .MR-rating-starsin {
+      width: 15%;
+    }
+  }
 
-
-/* Review Content */
-.review-content {
+  .hm-review-content {
     display: flex;
     align-items: center;
-}
-.review-image {
+    p {
+      font-size: 0.6rem;
+    }
+  }
+  .hm-review-image {
     margin-right: 10px;
-}
-
-/* Hero Image and Decorative Shapes */
-.main-hero-image {
-    width: 25%;
+    width: 40%;
+  }
+  
+  .hm-main-hero-image {
     position: absolute;
+    right: 5%;
     bottom: 0;
-    right: 10%;
     z-index: 9999;
-}
-.decorative-shape1 {
+  }
+  
+  .hm-decorative-shape1 {
     width: 33%;
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 0;
-}
-.decorative-shape2 {
+  }
+  .hm-decorative-shape2 {
     width: 10%;
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 0;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .decorative-shape1, .decorative-shape2 {
-        display: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1122px) {
+    .hm-main-hero-image {
+      width: 40%;
+      right: 3%;
+      bottom: 0;
     }
-    .hero-main-content {
-        display: block;
-        flex-wrap: wrap-reverse;
+  }
+  @media (max-width: 993px) {
+    .hm-main-hero-image {
+      position: static;
+      width: 70% !important;
+      margin-left: 10%;
     }
-}
-@media (max-width: 460px) {
-    .reviews-container{
-        width: 50%;
-        margin-top: 10px;
+    .hm-decorative-shape1,
+    .hm-decorative-shape2 {
+      display: none;
     }
-    .hero-info {
-      padding: 10px;
+    .hm-hero-main-content {
+      flex-wrap: wrap-reverse;
+      margin-top: 10px;
+      gap: 20px;
     }
-   
-}
-
+    .hm-reviews-container {
+      position: static;
+      width: 100%;
+      margin-top: 30px;
+      gap: 20px;
+    }
+    .hm-hero-section {
+      height: 100%;
+    }
+    .hm-feature-list {
+      display: block;
+    }
+    .hm-main-hero-image {
+      width: 100%;
+    }
+    .hm-review-card {
+      padding-left: 25%;
+    }
+    .hm-review-image {
+      width: 35%;
+    }
+    .hm-review-content {
+      p {
+        font-size: 1rem;
+      }
+    }
+    .hm-review-title {
+      font-size: 1.5rem;
+    }
+  }
+  /* Hero of About and Contact Section */
+  .hm-hero2-section {
+    position: relative;
+    background-image: url("/image/breadcrumb.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hm-hero2-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 102, 0.6);
+    z-index: 1;
+  }
+  
+  .hm-overlay {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hm-overlay h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hm-overlay p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .hm-overlay p a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .hm-overlay p a:hover {
+    opacity: 1;
+  }
+  

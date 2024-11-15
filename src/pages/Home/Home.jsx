@@ -1,17 +1,27 @@
 import "./Home.css";
-import NavbarHome from "../../components/NavbarHome/NavbarHome"
+import Navbar from "../../components/Navbar/Navbar"
 import HeroHome from "../../components/HeroHome/HeroHome";
 import HomeIcon from "../../components/HomeIcon/HomeIcon";
-import AllServiesHome from "../../components/AllServiesHome/ServiesHome";
+import ServiesHomeAll from "../../components/ServicesCardAll/ServicesCardAll"
+import PricingAll from "../../components/PricingAll/PricingAll";
+import Countactus from "../../components/Countactus/Countactus";
+import TestMonalise from "../../components/TestMonalise/TestMonalise";
+import BlogAll from "../../components/BlogAll/BlogAll";
+import Footer from "../../components/Footer/Footer";
+
 
 export default function Home() {
   return (
     <>
-      <NavbarHome />
-      <HeroHome />
+      <Navbar x={true} />
+      <HeroHome h={true} />
       <HomeIcon />
-      <AllServiesHome />
-    
-    </>
+    <ServiesHomeAll/>
+    <PricingAll/>
+    <Countactus/>
+    <TestMonalise/>
+    <BlogAll/>
+    <Footer z={true}/>
+</>
   );
 }

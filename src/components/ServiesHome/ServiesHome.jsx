@@ -1,11 +1,11 @@
 import './ServiesHome.css'
 
-export default function ServiesHome({icon,title,pargraph}) {
+export default function ServiesHome({icon,title, Discrpation}) {
   return (
     <div className='Hm-card '>
         <img src={icon} alt="Woo Commerce"/>
         <h4>{title}</h4>
-        <p>{pargraph}</p>
+        <p>{ Discrpation}</p>
         <button>Read more</button>
     </div>
   )
