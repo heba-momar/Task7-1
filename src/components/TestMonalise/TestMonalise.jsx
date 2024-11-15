@@ -7,7 +7,26 @@ import testimg1 from "/image/testiThumb3_1.webp";
 import testimg2 from "/image/testiThumb3_2.webp";
 import testimg3 from "/image/testiThumb3_3.webp";
 import TestMonaliseCard from "../TestMonaliseCard/TestMonaliseCard";
-
+ const dataTestMonalise=[
+  {
+    img: testimg1,
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad.",
+    name: "Kristin Watson",
+    position: "Web Designer",
+  },
+  {
+    img: testimg2,
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad.",
+    name: "Theresa Webb",
+    position: "Tech Enthusiast",
+  },
+  {
+    img: testimg3,
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad.",
+    name: "Round Richards",
+    position: "Web Entrepreneur",
+  },
+ ]
 export default function TestMonalise() {
   return (
     <>
@@ -63,29 +82,7 @@ export default function TestMonalise() {
           {/* Testimonials Cards */}
          
           <div className="hm-all-cards">
-            {[
-              {
-                img: testimg1,
-                paragraph:
-                  ' "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad."',
-                name: "Kristin Watson",
-                position: "Web Designer",
-              },
-              {
-                img: testimg2,
-                paragraph:
-                  ' "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad."',
-                name: "Theresa Webb",
-                position: "Tech Enthusiast",
-              },
-              {
-                img: testimg3,
-                paragraph:
-                  ' "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem quia neque accusamus ad."',
-                name: "Round Richards",
-                position: "Web Entrepreneur",
-              },
-            ].map((data, index) => (
+            { dataTestMonalise.map((data, index) => (
               <TestMonaliseCard
                 key={index}
                 img={data.img}
