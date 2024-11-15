@@ -21,7 +21,7 @@ export default function TestMonaliseCard({ paragraph, img, name, position }) {
 
         <div className="hmcard-info">
           <div className="hm-picturetitle">
-            <img src={img} alt={name} className="MR-testimonials-card-img" />
+            <img src={img} alt={name} className="hm-testimonials-img" />
             <div>
               <h3>{name}</h3>
               <span>{position}</span>
@@ -30,7 +30,7 @@ export default function TestMonaliseCard({ paragraph, img, name, position }) {
           <img
             src="./image/right-quotation-sign-svgrepo-com.svg"
             className="hm-quotation"
-            alt="Quotation Mark"
+            alt=""
           />
         </div>
       </div>

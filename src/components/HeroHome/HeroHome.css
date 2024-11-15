@@ -118,7 +118,6 @@
     z-index: 0;
   }
   
-  /* Responsive Design */
   @media (max-width: 1122px) {
     .hm-main-hero-image {
       width: 40%;
@@ -171,7 +170,6 @@
       font-size: 1.5rem;
     }
   }
-  /* Hero of About and Contact Section */
   .hm-hero2-section {
     position: relative;
     background-image: url("/image/breadcrumb.webp");

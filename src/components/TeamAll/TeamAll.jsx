@@ -22,7 +22,8 @@ const teamData=[
          name:'Arnold Hemingway' ,
          title:'Web Expert'
         }, 
-    {img: img4, 
+    {
+      img: img4, 
         name:'Shikon Haque' ,
          title:'Data Analyst'
         }, 

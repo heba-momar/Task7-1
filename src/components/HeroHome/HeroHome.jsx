@@ -65,12 +65,12 @@ export default function HeroHome({ h, title, Section }) {
                   </div>
 
                   <div className=" hm-review-card">
-                    <h2 className="MR-review-title">Google</h2>
+                    <h2 className="hm-review-title">Google</h2>
                     <div className="hm-review-content">
                       <img
                         className="hm-review-image"
                         src="/image/profileShape1_1.webp"
-                        alt="Profile"
+                        alt="profileShape1"
                       />
                       <div>
                         <div className="hm-rating-stars">
@@ -87,17 +87,17 @@ export default function HeroHome({ h, title, Section }) {
               <div>
                 <img className="hm-main-hero-image"
                   src="/image/heroThumb1_1.webp"
-                  alt="Hero"  />
+                  alt="Thumb1"  />
 
                 <div>
                   <img  className="hm-decorative-shape1"
                     src="/image/heroShape1_1.webp"
-                    alt="Shape 1"
+                    alt=""
                   
                   />
                   <img className="hm-decorative-shape2"
                     src="/image/heroShape1_2.webp"
-                    alt="Shape 2"
+                    alt=""
                   />
           
                 </div>

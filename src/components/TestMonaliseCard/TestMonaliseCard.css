@@ -1,9 +1,8 @@
-/* Star Ratings Container */
+
 .hm-stars {
     display: flex;
   }
   
-  /* Rating Stars */
   .hm-FilledStar {
     font-size: 20px;
     color: #fca21a;

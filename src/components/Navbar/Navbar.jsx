@@ -70,7 +70,6 @@ export default function Navbar({ x}) {
         </nav>
       )}
 
-      {/* About and Contact NavBar */}
 
       {!x && (
         <nav className="hm-navbar">
