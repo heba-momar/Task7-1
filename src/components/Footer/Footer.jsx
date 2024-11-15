@@ -143,13 +143,14 @@ export default function Footer({ m }) {
             <div className="footer-divider"></div>
             <div className="contact-info">
               <IoMdMail />
-              <a href="mailto:Mustafa.rashid.abbas@gmail.com">
-                Mustafa.rashid.abbas@gmail.com
-              </a>
+              <a href="mailto:hebamomar851@gmail.com">
+                HebaMomar@gmail.com
+                </a>
             </div>
             <div className="contact-info">
               <FaPhoneFlip />
-              <a href="tel:+9647716091119">+964 (771) 609 1119</a>
+             
+                <a href="tel:+951205166">+963951205166</a>
             </div>
 
 
@@ -174,7 +175,7 @@ export default function Footer({ m }) {
 
         <div className="footer-legal">
           <div className="footer-legal-content">
-            <div>©All Copyright 2024 by Extech</div>
+            <div> &copy; All Copyright 2024 by Extech</div>
             <div>
               <a href="#">Terms & Conditions</a><a href="#">Privacy Policy</a>
             </div>
